@@ -1,4 +1,5 @@
 import "./App.css";
+import Cards from "./Component/Cards";
 import Header from "./Component/Header";
 import HeroSection from "./Component/HeroSection";
 import Slider from "./Component/Slider";
@@ -11,6 +12,7 @@ function App() {
       <HeroSection />
       <TrendingContainer />
       <Slider />
+      <Cards />
     </>
   );
 }
