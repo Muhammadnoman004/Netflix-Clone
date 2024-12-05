@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header_wrapper {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.class__netflixLogoDiv {
+  width: 150px;
+  color: rgb(229, 9, 20);
+  fill: currentColor;
+}
+.class__flex {
+  display: flex;
+  justify-content: space-between;
+}
+.class__headerMainDiv {
+  padding: 30px 170px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.7889) 8.333%, rgba(0, 0, 0, 0.7556) 16.67%, rgba(0, 0, 0, 0.7) 25%, rgba(0, 0, 0, 0.6222) 33.33%, rgba(0, 0, 0, 0.5222) 41.67%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.2778) 58.33%, rgba(0, 0, 0, 0.1778) 66.67%, rgba(0, 0, 0, 0.1) 75%, rgba(0, 0, 0, 0.04444) 83.33%, rgba(0, 0, 0, 0.01111) 91.67%, rgba(0, 0, 0, 0) 100%);
+}
+.class__signInBtn {
+  background-color: rgb(229, 9, 20);
+  color: white;
+  padding: 10px;
+  width: 80px;
+  border: none;
+  border-radius: 0.3em;
+  font-weight: bold;
+}
+.class__signInBtn:hover {
+  background-color: rgb(210, 8, 19);
+  cursor: pointer;
+}
+.class__heroBgImg__wrapper {
+  z-index: -1;
+  width: 100%;
+}
+.class__heroBgImg__wrapper::before {
+  content: "";
+  background-image: linear-gradient(12deg, rgba(0, 0, 0, 0.85) 36%, rgba(0, 0, 0, 0.8465) 40.58%, rgba(0, 0, 0, 0.8361) 45.17%, rgba(0, 0, 0, 0.8187) 49.75%, rgba(0, 0, 0, 0.7944) 54.33%, rgba(0, 0, 0, 0.7632) 58.92%, rgba(0, 0, 0, 0.725) 63.5%, rgba(0, 0, 0, 0.6868) 68.08%, rgba(0, 0, 0, 0.6556) 72.67%, rgba(0, 0, 0, 0.6313) 77.25%, rgba(0, 0, 0, 0.6139) 81.83%, rgba(0, 0, 0, 0.6035) 86.42%, rgba(0, 0, 0, 0.6) 91%);
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+.class__heroBgImg {
+  width: 100%;
+  height: 100vh;
+  display: block;
+}
+.class__heroheading__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.class__heroheading {
+  font-weight: bold;
+  font-size: 65px;
+  text-align: center;
+}
+.class__heroTitleheading {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.class__heroSubTitleheading {
+  font-size: 1.2em;
+  margin-top: 8px;
+}
+.class__heroBtnDiv {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+.class__heroBtn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(229, 9, 20);
+  color: white;
+  padding: 15px;
+  width: 200px;
+  border: none;
+  border-radius: 0.3em;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.class__heroBtn:hover {
+  background-color: rgb(210, 8, 19);
+}
+.class__heroEmailInput {
+  background: none;
+  border: 1px solid #ccc;
+  border-radius: 0.3em;
+  padding: 15px;
+  min-width: 180px;
+  font-weight: 700;
+  font-size: 0.9em;
+  flex-grow: 1;
+  color: white;
+}
+.class__heroEmailInput:focus {
+  border: 2px solid #fff;
+}
+.class__trendingMainDiv {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 6.25rem;
+  z-index: 1;
+}
+.class__trendingChildDiv {
+  width: 150%;
+  left: -25%;
+  box-sizing: border-box;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  margin: auto;
+  align-items: center;
+  border: solid 0.25rem transparent;
+  border-top-left-radius: 50% 100%;
+  border-top-right-radius: 50% 100%;
+  border-bottom: none;
+  background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+  background-clip: padding-box;
+}
+.class__trendingChildDiv::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  margin-top: -0.25rem;
+  border-radius: inherit;
+  background: linear-gradient(to right, rgb(33, 13, 22) 16%, rgb(184, 40, 105), rgb(229, 9, 20), rgb(184, 40, 105), rgb(33, 13, 22) 84%);
+}
+
+span {
+  display: block;
+}
+
+.trending__MainSection {
+  background-color: black;
+  padding-left: 170px;
+  height: 100%;
+  border: none;
+}
+.trending__heading {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  font-size: large;
+  font-weight: lighter;
+}
+.trending__dropdownDiv {
+  display: flex;
+  margin-top: 15px;
+  gap: 10px;
+}
+.trending__dropdown {
+  padding: 8px;
+  width: 100px;
+  color: white;
+  background-color: black;
+  border-radius: 0.2em;
+  font-weight: bold;
+}
+.trending__dropdownOption {
+  background-color: white;
+  color: black;
+}/*# sourceMappingURL=App.css.map */
