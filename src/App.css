@@ -186,4 +186,37 @@ span {
 .trending__dropdownOption {
   background-color: white;
   color: black;
+}
+
+.Cards {
+  padding: 40px;
+  background-color: black;
+}
+.Cards__Wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+.Cards__CardDiv {
+  background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+  color: white;
+  width: 22em;
+  height: 20em;
+  padding: 1.5em;
+  border-radius: 1em;
+  position: relative;
+}
+.Cards_CardSectionHead {
+  margin-left: 2.9em;
+  font-size: larger;
+  color: white;
+}
+.Cards__text {
+  padding-top: 15px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.Cards__Img {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
 }/*# sourceMappingURL=App.css.map */

@@ -29,7 +29,7 @@ export default function Slider() {
     <>
       <section className="SwiperSection">
         <Swiper
-          // onSwiper={setSwiperRef}
+          onSwiper={setSwiperRef}
           slidesPerView={5.5}
           slidesPerGroup={5}
           speed={1000}
@@ -38,7 +38,7 @@ export default function Slider() {
           pagination={{
             type: "fraction",
           }}
-          navigation={true}
+          navigation={false}
           modules={[Navigation]}
           className="mySwiper"
         >
