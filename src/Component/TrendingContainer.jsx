@@ -9,7 +9,7 @@ export default function TrendingContainer() {
       <section className="trending__MainSection">
         <div className="trending">
           <div className="trending__heading">
-            <h1>Trending Now</h1>
+            <h3>Trending Now</h3>
 
             <div className="trending__dropdownDiv">
               <div>

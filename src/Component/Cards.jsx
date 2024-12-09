@@ -5,12 +5,12 @@ export default function Cards() {
     <>
       <section className="Cards">
         <div className="Cards_CardSectionHead">
-          <h1>More Reasons to Join</h1>
+          <h3>More Reasons to Join</h3>
         </div>
         <div className="Cards__Wrapper">
           <div className="Cards__CardDiv">
             <div>
-              <h2>Enjoy on your TV</h2>
+              <h4>Enjoy on your TV</h4>
               <p className="Cards__text">
                 Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV,
                 Blu-ray players, and more.
@@ -143,7 +143,7 @@ export default function Cards() {
           </div>
           <div className="Cards__CardDiv">
             <div>
-              <h2>Enjoy on your TV</h2>
+              <h4>Enjoy on your TV</h4>
               <p className="Cards__text">
                 Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV,
                 Blu-ray players, and more.
@@ -296,7 +296,7 @@ export default function Cards() {
           </div>
           <div className="Cards__CardDiv">
             <div>
-              <h2>Enjoy on your TV</h2>
+              <h4>Enjoy on your TV</h4>
               <p className="Cards__text">
                 Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV,
                 Blu-ray players, and more.
@@ -477,7 +477,7 @@ export default function Cards() {
           </div>
           <div className="Cards__CardDiv">
             <div>
-              <h2>Enjoy on your TV</h2>
+              <h4>Enjoy on your TV</h4>
               <p className="Cards__text">
                 Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV,
                 Blu-ray players, and more.

@@ -227,7 +227,8 @@ span {
     color: white;
     background-color: black;
     border-radius: 0.2em;
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: medium;
   }
   &__dropdownOption {
     background-color: white;
@@ -241,7 +242,7 @@ span {
   &__Wrapper {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 10px;
+    margin-top: 20px;
   }
   &__CardDiv {
     background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
@@ -265,5 +266,20 @@ span {
     position: absolute;
     right: 15px;
     bottom: 15px;
+  }
+}
+
+.FAQs {
+  &__section {
+    background-color: black;
+    color: white;
+    padding: 6em;
+    padding-top: 2em;
+  }
+  &__Accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
   }
 }
