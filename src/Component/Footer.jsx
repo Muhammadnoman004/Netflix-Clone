@@ -54,7 +54,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <footer>
+          <footer style={{ paddingBottom: "100px", paddingTop: "50px" }}>
             <div>
               <p>
                 <a href="">Questions? Contact us.</a>
@@ -123,7 +123,9 @@ export default function Footer() {
                 </ul>
               </div>
             </div>
-            <div>
+            <div
+              style={{ position: "relative", left: "-16px", marginTop: "45px" }}
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -148,6 +150,7 @@ export default function Footer() {
                 </option>
               </select>
             </div>
+            <p className="Footer__Last_Para">Netflix Pakistan</p>
           </footer>
         </Container>
       </section>

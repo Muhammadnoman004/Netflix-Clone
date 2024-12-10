@@ -208,7 +208,7 @@ span {
   position: relative;
 }
 .Cards_CardSectionHead {
-  margin-left: 2.9em;
+  margin-left: 0.9em;
   font-size: larger;
   color: white;
 }
@@ -352,4 +352,33 @@ span {
 .Footer__dropdown__svg {
   position: relative;
   left: 30px;
+}
+.Footer__Last_Para {
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 30px;
+  font-size: medium;
+}
+
+@media screen and (max-width: 990px) {
+  .Footer__inpBtnDiv input {
+    min-width: 400px;
+  }
+  .Footer__inpBtnDiv button {
+    width: 160px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Footer__inpBtnDiv {
+    display: block;
+  }
+  .Footer__inpBtnDiv button {
+    width: 160px;
+    padding: 10px;
+    margin-top: 15px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .Footer__inpBtnDiv {
+    width: 100%;
+  }
 }/*# sourceMappingURL=App.css.map */
