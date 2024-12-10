@@ -20,7 +20,7 @@
   justify-content: space-between;
 }
 .class__headerMainDiv {
-  padding: 30px 170px;
+  padding: 30px 150px;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.7889) 8.333%, rgba(0, 0, 0, 0.7556) 16.67%, rgba(0, 0, 0, 0.7) 25%, rgba(0, 0, 0, 0.6222) 33.33%, rgba(0, 0, 0, 0.5222) 41.67%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.2778) 58.33%, rgba(0, 0, 0, 0.1778) 66.67%, rgba(0, 0, 0, 0.1) 75%, rgba(0, 0, 0, 0.04444) 83.33%, rgba(0, 0, 0, 0.01111) 91.67%, rgba(0, 0, 0, 0) 100%);
 }
 .class__signInBtn {
@@ -194,21 +194,18 @@ span {
   background-color: black;
 }
 .Cards__Wrapper {
-  display: flex;
-  justify-content: space-evenly;
   margin-top: 20px;
 }
 .Cards__CardDiv {
   background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
   color: white;
-  width: 22em;
   height: 20em;
   padding: 1.5em;
+  margin-bottom: 20px;
   border-radius: 1em;
   position: relative;
 }
 .Cards_CardSectionHead {
-  margin-left: 0.9em;
   font-size: larger;
   color: white;
 }
@@ -359,7 +356,15 @@ span {
   font-size: medium;
 }
 
+@media screen and (max-width: 1200px) {
+  .class__headerMainDiv {
+    padding: 30px 90px;
+  }
+}
 @media screen and (max-width: 990px) {
+  .class__headerMainDiv {
+    padding: 30px 50px;
+  }
   .Footer__inpBtnDiv input {
     min-width: 400px;
   }
@@ -368,6 +373,10 @@ span {
   }
 }
 @media screen and (max-width: 600px) {
+  .FAQs__section {
+    padding-left: 0;
+    padding-right: 0;
+  }
   .Footer__inpBtnDiv {
     display: block;
   }
@@ -378,6 +387,17 @@ span {
   }
 }
 @media screen and (max-width: 530px) {
+  .class__headerMainDiv {
+    padding: 30px 25px;
+  }
+  .class__netflixLogoDiv {
+    width: 5.5rem;
+    height: 1.5rem;
+  }
+  .class__signInBtn {
+    width: 70px;
+    padding: 5px;
+  }
   .Footer__inpBtnDiv {
     width: 100%;
   }
