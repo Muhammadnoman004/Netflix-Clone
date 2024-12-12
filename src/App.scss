@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: black !important;
+}
 .header_wrapper {
   position: absolute;
   width: 100%;
@@ -421,6 +424,15 @@ span {
   }
 }
 @media screen and (max-width: "600px") {
+  .trending__dropdownDiv {
+    flex-direction: column;
+  }
+  .trending__dropdown {
+    width: 100%;
+  }
+  .Cards {
+    padding: 40px 5px;
+  }
   .FAQs__section {
     padding-left: 0;
     padding-right: 0;
@@ -469,5 +481,35 @@ span {
   }
   .Footer__inpBtnDiv {
     width: 100%;
+  }
+}
+@media screen and (max-width: "430px") {
+  .class__heroBtnDiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .class__heroEmailInput {
+    min-width: 0px;
+    flex-grow: 1;
+  }
+  .Footer__inpBtnDiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .Footer__inpBtnDiv input {
+    min-width: 0px;
+    flex-grow: 1;
+  }
+  .class__heroheading__wrapper {
+    width: 350px;
+  }
+}
+@media screen and (max-width: "375px") {
+  .class__heroheading__wrapper {
+    width: 250px;
+  }
+  .class__heroBtn {
+    width: 120px;
+    font-size: 16px;
   }
 }
